@@ -20,7 +20,7 @@ DeFi Yield Agent is an AI-powered automated yield optimization platform that max
 
 The application is built using a modern React stack with TypeScript for type safety and Vite for optimal development experience:
 
-```
+```text
 ┌─────────────────────────────────────┐
 │           User Interface            │
 ├─────────────────────────────────────┤
@@ -49,33 +49,39 @@ The application is built using a modern React stack with TypeScript for type saf
 ### Core Components
 
 #### 1. **Dashboard**
+
 Central hub providing an overview of all portfolio activities, agent status, and quick actions.
 
 #### 2. **Portfolio Management**
+
 - Real-time portfolio tracking with animated metrics
 - Position management with detailed analytics
 - Risk assessment and diversification analysis
 - Performance benchmarking against DeFi indices
 
 #### 3. **Yield Monitor**
+
 - Multi-protocol yield comparison across 50+ DeFi platforms
 - Advanced filtering and sorting capabilities
 - Opportunity discovery with risk-adjusted recommendations
 - Historical yield performance tracking
 
 #### 4. **Agent System**
+
 - Configurable automation with multiple risk profiles
 - Smart rebalancing based on market conditions
 - Gas optimization and transaction timing
 - Emergency controls and safety mechanisms
 
 #### 5. **Analytics Engine**
+
 - Interactive charts with multiple timeframe analysis
 - Predictive modeling with confidence intervals
 - Smart insights and actionable recommendations
 - Performance attribution and breakdown analysis
 
 #### 6. **Transaction History**
+
 - Comprehensive transaction tracking
 - Advanced filtering and categorization
 - Cost analysis and performance impact
@@ -84,21 +90,24 @@ Central hub providing an overview of all portfolio activities, agent status, and
 ## Data Flow Architecture
 
 ### Portfolio Data Pipeline
-```
+
+```text
 MetaMask Wallet → Portfolio Service → Real-time Analytics → UI Components
        ↓              ↓                      ↓               ↓
    Wallet State → Position Tracking → Performance Metrics → Charts
 ```
 
 ### Yield Optimization Flow
-```
+
+```text
 Protocol APIs → Yield Data Service → Filtering Engine → Opportunity Cards
       ↓               ↓                    ↓               ↓
   Rate Updates → Data Aggregation → Risk Assessment → User Recommendations
 ```
 
 ### Agent Decision Making
-```
+
+```text
 Market Data → Risk Analysis → Strategy Selection → Execution Planning → Transaction
      ↓            ↓              ↓                ↓               ↓
  Trends      Risk Profile    Optimization     Gas Estimation   Execution
@@ -107,23 +116,27 @@ Market Data → Risk Analysis → Strategy Selection → Execution Planning → 
 ## Technical Stack
 
 ### Core Technologies
+
 - **React 18** - Modern UI framework with concurrent features
 - **TypeScript** - Type-safe development with enhanced IDE support
 - **Vite** - Lightning-fast build tool and development server
 - **Tailwind CSS** - Utility-first CSS framework for rapid styling
 
 ### UI Framework
+
 - **shadcn/ui** - Modern component library built on Radix UI
 - **Radix UI** - Low-level UI primitives for accessibility
 - **Lucide React** - Beautiful icon library with tree-shaking
 - **Recharts** - Powerful charting library for data visualization
 
 ### State Management
+
 - **React Query (@tanstack/react-query)** - Server state management and caching
 - **Context API** - Global state management for UI preferences
 - **Custom Hooks** - Encapsulated business logic and state
 
 ### Development Tools
+
 - **ESLint** - Code linting and quality enforcement
 - **TypeScript Compiler** - Type checking and compilation
 - **PostCSS** - CSS processing and optimization
@@ -131,24 +144,28 @@ Market Data → Risk Analysis → Strategy Selection → Execution Planning → 
 ## Features Documentation
 
 ### Portfolio Overview
+
 - **Real-time Tracking** - Live portfolio value and yield calculations
 - **Performance Metrics** - ROI, APY, Sharpe ratio, and volatility analysis
 - **Risk Assessment** - Comprehensive risk scoring and diversification metrics
 - **Position Management** - Individual position tracking with profit/loss analysis
 
 ### Yield Monitor
+
 - **Protocol Comparison** - Side-by-side yield comparison across platforms
 - **Opportunity Discovery** - AI-powered recommendations for yield optimization
 - **Historical Analysis** - Trend analysis and performance tracking
 - **Risk-Adjusted Returns** - Yield analysis considering protocol risk factors
 
 ### Agent Settings
+
 - **Risk Profiles** - Conservative, Balanced, and Aggressive strategies
 - **Automation Controls** - Customizable triggers and thresholds
 - **Gas Management** - Intelligent gas price optimization
 - **Safety Mechanisms** - Emergency stops and risk limits
 
 ### Mobile Optimization
+
 - **Touch-Friendly Interface** - Optimized for mobile interactions
 - **Responsive Design** - Seamless experience across all screen sizes
 - **Progressive Enhancement** - Core functionality works on all devices
@@ -157,6 +174,7 @@ Market Data → Risk Analysis → Strategy Selection → Execution Planning → 
 ## Getting Started
 
 ### Prerequisites
+
 - **Node.js** (v18 or higher)
 - **npm** or **bun** package manager
 - **MetaMask** browser extension
@@ -164,12 +182,14 @@ Market Data → Risk Analysis → Strategy Selection → Execution Planning → 
 ### Installation
 
 1. **Clone the repository**
+
    ```bash
    git clone <YOUR_GIT_URL>
    cd <YOUR_PROJECT_NAME>
    ```
 
 2. **Install dependencies**
+
    ```bash
    npm install
    # or
@@ -177,6 +197,7 @@ Market Data → Risk Analysis → Strategy Selection → Execution Planning → 
    ```
 
 3. **Start development server**
+
    ```bash
    npm run dev
    # or
@@ -203,7 +224,7 @@ bun run build
 
 ## Project Structure
 
-```
+```text
 src/
 ├── components/          # React components
 │   ├── ui/             # Reusable UI components
@@ -232,11 +253,13 @@ src/
 ## Deployment
 
 ### Lovable Platform (Recommended)
+
 1. Click the **Publish** button in the Lovable editor
 2. Your app will be deployed to a Lovable subdomain
 3. Optional: Connect a custom domain in Project Settings
 
 ### Manual Deployment
+
 1. Build the project: `npm run build`
 2. Deploy the `dist/` folder to your hosting provider
 3. Configure environment variables as needed
@@ -249,14 +272,3 @@ This project follows modern React development practices:
 - **Type Safety** - Maintain comprehensive TypeScript coverage
 - **Mobile-First** - Design for mobile, enhance for desktop
 - **Performance** - Optimize for fast loading and smooth interactions
-
-## Support
-
-For issues, feature requests, or questions:
-- Check the [Lovable Documentation](https://docs.lovable.dev/)
-- Join the [Lovable Discord Community](https://discord.com/channels/1119885301872070706/1280461670979993613)
-- Review the codebase for implementation details
-
----
-
-**Built with ❤️ using [Lovable](https://lovable.dev) - The AI-powered web development platform**
