@@ -20,6 +20,8 @@ DeFi Yield Agent is an AI-powered automated yield optimization platform that max
 
 ## Architecture Overview
 
+For a detailed explanation of the system architecture, please see the [ARCHITECTURE.md](ARCHITECTURE.md) file.
+
 ### Frontend Architecture
 
 The application is built using a modern React stack with TypeScript for type safety and Vite for optimal development experience:
