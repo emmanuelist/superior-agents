@@ -5,6 +5,10 @@
 
 DeFi Yield Agent is an AI-powered automated yield optimization platform that maximizes returns across decentralized finance protocols. Built with cutting-edge technology, it provides intelligent portfolio management, real-time yield monitoring, and automated rebalancing to help users optimize their DeFi investments.
 
+### Live Demo
+
+**[Explore the live application](https://defi-yield-agent.vercel.app)**
+
 ### Key Features
 
 - 🤖 **AI-Powered Automation** - Intelligent agent with configurable risk profiles
